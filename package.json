@@ -1,0 +1,12 @@
+{
+  "name": "kbeffects",
+  "version": "0.0.1",
+  "description": "openrgb effects",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "openrgb": "^0.1.2",
+    "rainbowvis.js": "^1.0.1"
+  }
+}
