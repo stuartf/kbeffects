@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "openrgb": "^0.1.2",
+    "openrgb-sdk": "^0.4.3",
     "rainbowvis.js": "^1.0.1"
   }
 }

@@ -2,16 +2,22 @@
 # yarn lockfile v1
 
 
-core-js@^3.6.1:
-  version "3.18.1"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.18.1.tgz#289d4be2ce0085d40fc1244c0b1a54c00454622f"
-  integrity sha512-vJlUi/7YdlCZeL6fXvWNaLUPh/id12WXj3MbkMw5uOyF0PfWPBNOCNbs53YqgrvtujLNlt9JQpruyIKkUZ+PKA==
+bufferpack@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/bufferpack/-/bufferpack-0.0.6.tgz#fb3d8738a0e1e4e03bcff99f9a75f9ec18a9d73e"
+  integrity sha1-+z2HOKDh5OA7z/mfmnX57Bip1z4=
 
-openrgb@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/openrgb/-/openrgb-0.1.2.tgz#e7f025d913113e3f34484b3b27600bce9605d8f6"
-  integrity sha512-TlXsn/WVga050LeT7Af8xjA6sAUzDPYieq6R62yT4KaldmwjtoAJHjzAm8pPJoD7si5+g23Jw5oyFBQIZmwbCw==
+core-js@^3.6.1:
+  version "3.19.0"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.19.0.tgz#9e40098a9bc326c7e81b486abbd5e12b9d275176"
+  integrity sha512-L1TpFRWXZ76vH1yLM+z6KssLZrP8Z6GxxW4auoCj+XiViOzNPJCAuTIkn03BGdFe6Z5clX5t64wRIRypsZQrUg==
+
+openrgb-sdk@^0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/openrgb-sdk/-/openrgb-sdk-0.4.3.tgz#a5284caf3871a249ddf33eb2ab7d01193895f195"
+  integrity sha512-e3PDZ1RxO2HxC9rGzp9D0B+t4JewaucxQ08TnwpwZxfxtWYnE+83O7kZjSKSyUqHjkOqdxpZJJkxT6C112yxyw==
   dependencies:
+    bufferpack "0.0.6"
     promise-socket "^6.0.3"
 
 promise-duplex@^5.0.3:
